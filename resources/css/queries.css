@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1200px) {
+    .naslov {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row { padding: 0 2%; }
+    .mobile-nav-icon { display: none; }
+    canvas { width: 105%;}
+}
+
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .main nav { font-size: 95%; }
+    
+    .o-nama {
+        width: 70%;
+    }
+    
+    .paket {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .cena-paketa { font-size: 150%; }
+    .cena-paketa span { font-size: 60%; }
+    .paket ul { margin: 2px 0; }
+
+    .paket li {
+        font-size: 85%;
+        padding: 8px 0;
+    }
+
+    .paket i {
+        margin-right: 8px;
+        font-size: 65%;
+    }
+    
+    .adresa,
+    .kontakt,
+    .social {
+        font-size: 90%;
+    }
+    
+    .mobile-nav-icon { display: none; }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .main-nav { font-size: 95%;}
+    .main-nav ul li { margin-left: 60%;}
+    h1 { font-size: 200%;}
+    .o-nama { 
+        width: 80%;
+        margin: 10px auto;
+    }
+    blockquote { font-size: 90%; }
+    .forma { width: 90%; }
+    .mobile-nav-icon { display: none; }
+}
+
+
+@media only screen and (max-width: 862px) {
+    .logo { height: 100px;}
+    .main-nav { font-size: 90%;}
+    .main-nav ul li { margin-left: 60%; }
+    
+    .torte,
+    .palacinke { margin-left: 20px; }
+    
+    .cene {margin-right: 20px; }
+}
+
+
+@media only screen and (max-width: 810px) {
+    .main-nav { display: none;}
+    .mobile-nav-icon { display: inline-block; }
+    .main-nav { 
+        float: left; 
+        margin-left: 45%;
+        margin-top: 20px;
+    }
+    .main-nav li { display: block; }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    .mobile-nav-icon { display: inline-block; }
+    
+    body { font-size: 17px; }
+    h2 { font-size: 150%;}
+    .o-nama {
+        width: 95%;
+        margin-left: auto;
+    }
+    .grad i {
+    font-size: 80%;
+    margin-right: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    body { font-size: 16px; }
+    .section-o-nama i { font-size: 100%; }
+    blockquote { margin-top: 0;}
+    section { padding: 40px 0;}
+    .forma { width: 100%; }
+}
+
+
+@media only screen and (max-width: 700px) {
+    body { font-size: 15px;}
+}
+
+
+@media only screen and (max-width: 640px) {
+    h2 { font-size: 140%;}
+    h3 { font-size: 90%;}
+}
+
+
+@media only screen and (max-width: 610px) {
+    body { font-size: 14px;}
+    section { padding: 30px 0;}
+    h2:after { margin-top: 25px; }
+    .torte,
+    .palacinke { margin-left: 5px; }
+    .cene {margin-right: 5px; }
+    .forma { font-size: 95%;}
+}
+
+
+@media only screen and (max-width: 570px) {
+    body { font-size: 13px;}
+    .main-nav { margin-left: 35%; }
+    section {padding: 25px 0;}
+    h2:after { margin-top: 20px; }
+    .section-cenovnik h3 { display: none; }
+    .torte,
+    .cene { margin-bottom: 5%;}
+    .section-cenovnik .span-1-of-4 { width: 50%;}
+    .col {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+    .main-nav { margin-left: 25%;}
+    .logo { 
+        height: 80px;
+        width: auto;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .footer-nav { font-size: 85%;}
+    .footer-nav li { margin: 5px; }
+    footer p { font-size: 80%; }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .main-nav { margin-left: 10%;}
+}
+
+
+@media only screen and (max-width: 300px) {
+    .footer-nav li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .main-nav {
+        font-size: 75%;
+        margin-left: 0;
+    }
+    .logo {
+        height: 50px;
+        width: auto;
+        margin-left: -5px;
+    }
+}
+
+
+@media only screen and (max-width: 220px) {
+    body { font-size: 10px;}
+    section { padding: 10px;}
+    .main-nav { 
+        font-size: 65%;
+        margin-left: 0;
+    }
+    .torte, .palacinke { margin-left: 0;}
+    .cene { margin-right: 0;}
+}
+
